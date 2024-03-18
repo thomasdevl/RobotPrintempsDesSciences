@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robot Movement Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="level-selection">
+    <label for="level">Choose a level:</label>
+    <select id="level">
+      <option value="1">Level 1</option>
+      <option value="2">Level 2</option>
+      <option value="3">Level 3</option>
+      <option value="4">Level 4</option>
+      <option value="5">Level 5</option>
+    </select>
+  </div>
+
+    <div style="display: flex;">
+        <div id="grid-container"></div>
+        <div id="controls" class="controls">
+            <button id="move-forward" class="move-forward-btn" > ⬆ </button>
+            <div>
+                <button id="turn-left" class="turn-left-btn"> ↰ </button>
+                <button id="turn-right" class="turn-right-btn"> ↱</button>
+            </div>
+            <button id="pick-diamond" class="pick-diamond-btn">Pick Diamond</button>
+        </div>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

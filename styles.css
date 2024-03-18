@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(10, 50px);
+  grid-template-rows: repeat(10, 50px);
+  gap: 2px;
+  margin-top: 20px;
+}
+
+.grid-cell {
+  position: relative; /* Make the cell relative for absolute positioning of arrow */
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  font-size: 24px; /* Make the arrow bigger */
+}
+
+.robot {
+  background-image: url('images/robot.png'); /* Path to the robot image */
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  z-index: 100; /* Make the robot appear on top of the arrow */
+}
+.wall {
+  background-image: url('images/wall.png'); /* Path to the wall image */
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+.diamond {
+  background-image: url('images/diamond.png'); /* Path to the diamond image */
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+
+#controls {
+  margin-top: 20px;
+}
+
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* CSS for the buttons */
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+.move-forward-btn,
+.turn-left-btn,
+.turn-right-btn,
+.pick-diamond-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.move-forward-btn:hover,
+.turn-left-btn:hover,
+.turn-right-btn:hover,
+.pick-diamond-btn:hover {
+  background-color: #45a049;
+}
+
