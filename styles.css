@@ -23,10 +23,11 @@ h1 {
   width: 50px;
   height: 50px;
   border: 1px solid black;
-  display: flex; /* Use flexbox for centering */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  font-size: 24px; /* Make the arrow bigger */
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  font-size: 24px; 
+  color: red;
 }
 
 .robot {
@@ -36,12 +37,14 @@ h1 {
   height: 50px;
   z-index: 100; /* Make the robot appear on top of the arrow */
 }
+
 .wall {
   background-image: url('images/wall.png'); /* Path to the wall image */
   background-size: cover;
   width: 50px;
   height: 50px;
 }
+
 .diamond {
   background-image: url('images/diamond.png'); /* Path to the diamond image */
   background-size: cover;
