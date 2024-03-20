@@ -1,13 +1,54 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #717171;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh; /* Make sure the body takes at least the viewport height */
+  text-align: center; /* Centers the text elements like h1 */
 }
 
-h1 {
+.header h1 {
   text-align: center;
-  color: #333;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  border: solid;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+}
+
+.sidebar {
+  padding: 10px;
+  border: 8px ridge rgba(0, 0, 0, .6);
+}
+
+.sidebar2 {
+  padding: 10px;
+}
+
+.left {
+  order: 1;
+}
+
+.center-content {
+  order: 2;
+}
+
+.right {
+  order: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 #grid-container {
@@ -15,20 +56,25 @@ h1 {
   grid-template-columns: repeat(10, 50px);
   grid-template-rows: repeat(10, 50px);
   gap: 2px;
-  margin-top: 20px;
+  margin-top: 15px;
+  margin-right: 100px;
+
 }
 
 .grid-cell {
-  position: relative; /* Make the cell relative for absolute positioning of arrow */
+  position: relative;
   width: 50px;
   height: 50px;
   border: 1px solid black;
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  font-size: 24px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
   color: red;
+  background-color: silver;
+
 }
+
 
 .robot {
   background-image: url('images/robot.png'); /* Path to the robot image */
@@ -43,6 +89,8 @@ h1 {
   background-size: cover;
   width: 50px;
   height: 50px;
+
+
 }
 
 .diamond {
@@ -53,7 +101,7 @@ h1 {
 }
 
 #controls {
-  margin-top: 20px;
+  margin-top: 70px;
 }
 
 
@@ -61,15 +109,14 @@ button {
   padding: 10px 20px;
   font-size: 16px;
   margin: 0 10px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
+  color: silver;
   cursor: pointer;
   border-radius: 12px;
+
 }
 
-button:hover {
-  background-color: #45a049;
+.mirror-image {
+  transform: scaleX(-1);
 }
 
 select {
@@ -89,20 +136,19 @@ select {
 .move-forward-btn,
 .turn-left-btn,
 .turn-right-btn,
+
 .pick-diamond-btn {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #4CAF50;
+  padding: 30px 50px;
+  font-size: 30px;
+  background-color: #45a049;
   color: white;
-  border: none;
   cursor: pointer;
-  margin: 10px;
 }
 
 .move-forward-btn:hover,
 .turn-left-btn:hover,
 .turn-right-btn:hover,
 .pick-diamond-btn:hover {
-  background-color: #45a049;
+  background-color: #317134;
 }
 

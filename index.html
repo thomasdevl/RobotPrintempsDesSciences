@@ -7,29 +7,36 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div id="level-selection">
-    <label for="level">Choose a level:</label>
-    <select id="level">
-      <option value="1">Level 1</option>
-      <option value="2">Level 2</option>
-      <option value="3">Level 3</option>
-      <option value="4">Level 4</option>
-      <option value="5">Level 5</option>
-    </select>
-  </div>
+<div class="header">
+    <h1>Jeu du robot</h1>
+</div>
 
-    <div style="display: flex;">
-        <div id="grid-container"></div>
-        <div id="controls" class="controls">
-            <button id="move-forward" class="move-forward-btn" > ⬆ </button>
-            <div>
-                <button id="turn-left" class="turn-left-btn"> ↰ </button>
-                <button id="turn-right" class="turn-right-btn"> ↱</button>
-            </div>
-            <button id="pick-diamond" class="pick-diamond-btn">Pick Diamond</button>
-        </div>
+<div class="main-content">
+    <div id="level-selection" class="sidebar2 left">
+        <select id="level">
+            <option value="1">Level 1</option>
+            <option value="2">Level 2</option>
+            <option value="3">Level 3</option>
+            <option value="4">Level 4</option>
+            <option value="5">Level 5</option>
+        </select>
     </div>
 
-  <script src="script.js"></script>
+    <div id="grid-container" class="center-content"></div>
+
+    <div id="controls" class="sidebar right">
+        <button id="move-forward" class="move-forward-btn"> <img src="../images/topArrow.png" alt="Avancer" width="30" height="30"> </button>
+        <div>
+            <button id="turn-left" class="turn-left-btn">  <img src="../images/leftArrow.png" alt="gauche" width="30" height="30"> </button>
+            <button id="turn-right" class="turn-right-btn">
+                <img src="../images/leftArrow.png" alt="droite" width="30" height="30" class="mirror-image">
+            </button>
+        </div>
+        <button id="pick-diamond" class="pick-diamond-btn">Ramasser</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
 </body>
+
 </html>
