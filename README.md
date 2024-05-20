@@ -70,7 +70,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 For questions or suggestions, please contact us at:
-- **Email**: [email@example.com](mailto:email@example.com)
+- **Email**: [thomas.devlamminck@student.uclouvain.be](mailto:thomas.devlamminck@student.uclouvain.be)
 - **Université catholique de Louvain La Neuve**: [uclouvain.be](https://www.uclouvain.be)
 
 ---
