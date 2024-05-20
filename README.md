@@ -1,6 +1,6 @@
 # Robot Maze Adventure
 
-Welcome to **Robot Maze Adventure**, a fun and educational 2D game designed for primary school children. Created for "Le Printemps des Sciences" at Université catholique de Louvain La Neuve, this game is part of a bigger course that aims to teach kids the basics of sorting and ordering data through an engaging and interactive games and challenges.
+Welcome to **Robot Maze Adventure**, a fun and educational 2D game designed for primary school children. Created for "Le Printemps des Sciences" at Université catholique de Louvain La Neuve, this game is part of a bigger course that aims to teach kids the basics of sorting and ordering data through engaging and interactive games and challenges.
 
 ## Table of Contents
 - [Introduction](#introduction)
