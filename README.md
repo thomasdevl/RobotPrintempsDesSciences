@@ -78,5 +78,3 @@ For questions or suggestions, please contact us at:
 We hope you enjoy playing and learning with **Robot Maze Adventure**! Happy coding!
 
 ---
-
-Feel free to adjust the placeholders like `path_to_image.png`, `path_to_screenshot.png`, `your-username`, and `email@example.com` with actual data from your project.
