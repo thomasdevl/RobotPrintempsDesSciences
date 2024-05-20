@@ -26,8 +26,7 @@ This project was developed as part of "Le Printemps des Sciences" at Université
 ## Gameplay
 In **Robot Maze Adventure**, players will:
 1. **Navigate the Maze**: Use arrow keys to guide the robot through the maze.
-2. **Solve Puzzles**: Encounter puzzles that require sorting and ordering objects.
-3. **Learn Concepts**: Get educational tips and feedback to reinforce learning.
+2. **Learn Concepts**: Talk with your students about the best way to travers these mazes.
 
 <img width="1219" alt="Screenshot 2024-03-21 at 11 36 27" src="https://github.com/thomasdevl/RobotDemo/assets/91684310/ca8d8336-3422-43c5-b3d0-6d2afc088a26">
 
