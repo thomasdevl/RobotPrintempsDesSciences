@@ -32,7 +32,7 @@ In **Robot Maze Adventure**, players will:
 
 
 ## Live Demo
-Try out the game live on our website: [Robot Maze Adventure](https://thomasdevl.github.io/RobotDemo/)
+Try out the game live on our website: [Robot Maze Adventure](https://thomasdevl.github.io/RobotPrintempsDesSciences/)
 
 ## Installation
 To run **Robot Maze Adventure** on your local machine, follow these steps:
